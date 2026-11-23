@@ -101,18 +101,39 @@ sensor's answer.
 
 ## What you need
 
-- A **Flipper Zero** with a microSD card, on official firmware 1.5.1-rc
-  (target 7, API 88.2). The app is built against that firmware. On another
-  version the Flipper may refuse to load it; build it yourself in that case
-  (see [Build and test](#build-and-test)).
-- **`tpmsflipper.fap`** from [`release/TPMSFlipper-v1.0.0/`](release/TPMSFlipper-v1.0.0/).
+- A **Flipper Zero** with a microSD card in it.
+- **Official firmware 1.5.1-rc** on the Flipper (API 88.2). The app is built
+  against it. If the Flipper says "Outdated App" or "Outdated Firmware" when
+  you start the app, its firmware does not match this build: update the
+  firmware with qFlipper, or build the app yourself (see
+  [Build and test](#build-and-test)).
+- **`tpmsflipper.fap`**, one small file, from the
+  [latest release](https://github.com/jh502/TPMSFlipper/releases/latest).
+- A computer with [qFlipper](https://flipperzero.one/update) and a USB cable.
+  The Flipper mobile app or a microSD card reader will also do.
 - A car with Continental / VDO TG1C sensors: see [Which cars](#which-cars).
 
 ### Install
 
-1. Connect the Flipper with qFlipper or the Flipper mobile app.
-2. Copy `tpmsflipper.fap` to `SD Card/apps/Sub-GHz/`.
-3. On the Flipper open Apps, then Sub-GHz, then TPMSFlipper.
+1. **Download** `tpmsflipper.fap` from the
+   [latest release](https://github.com/jh502/TPMSFlipper/releases/latest).
+   It is under "Assets".
+2. **Connect** the Flipper to your computer by USB and open qFlipper.
+3. In qFlipper open the **File manager** tab, then **SD Card**, **apps**,
+   **Sub-GHz**.
+4. **Drag `tpmsflipper.fap` into that folder.**
+5. **On the Flipper** press OK for the menu, then Apps, Sub-GHz, TPMSFlipper.
+
+Other ways to copy the file:
+
+- **Phone:** the Flipper mobile app has a file manager. Put the file in the
+  same folder, `SD Card/apps/Sub-GHz/`.
+- **Card reader:** take the microSD card out of the Flipper and copy the file
+  into `apps/Sub-GHz/` on the card.
+
+To update, copy the new file over the old one. Your settings and saved wheels
+are kept; they live in `apps_data/tpmsflipper/` on the card. To remove the
+app, delete the file, and that folder if you want the saved wheels gone too.
 
 <img src="docs/img/home.png" width="256" alt="The home screen: Scan wheel, Exit ship mode, Live monitor, My wheels, Settings.">
 
