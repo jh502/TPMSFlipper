@@ -1,0 +1,13 @@
+App(
+    appid="tpmsflipper",
+    name="TPMSFlipper",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="tpmsflipper_app",
+    requires=["gui", "storage", "notification", "bt"],
+    stack_size=6 * 1024,
+    fap_category="Sub-GHz",
+    fap_icon="icon.png",
+    fap_description="Read a Continental/VDO TG1C tyre pressure sensor at the wheel, take a new sensor out of shipping mode, and watch all four wheels live.",
+    fap_author="TPMSFlipper",
+    fap_version="1.0.0",
+)

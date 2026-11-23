@@ -1,0 +1,1 @@
+App(appid="tpms_watch", name="TPMSFlipper Status Watch", apptype=FlipperAppType.EXTERNAL, entry_point="tpms_watch_app", requires=["gui", "storage", "notification"], stack_size=4096, fap_category="Sub-GHz", fap_version="0.2.1", fap_description="433.92 MHz TG1C status monitor", fap_author="TPMSFlipper")

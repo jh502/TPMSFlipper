@@ -1,0 +1,102 @@
+{
+  "about": [
+    "Cars whose tyre sensors a workshop tool treats exactly like the one this app was built on:",
+    "the same 125 kHz wake signal, the same radio set-up and the same decoder.",
+    "Condensed by hand from that tool's vehicle table.",
+    "status: tested = this project ran the app on the car; recorded = published recordings of",
+    "the car's sensors decode with the app's decoder (radio side only); expected = the tool's",
+    "table only, nobody has tried this app on one.",
+    "bands: the sensor radio, MHz. 433 is the European fitment, 315 the North American one."
+  ],
+  "sensor": "Continental / VDO TG1C family",
+  "makes": [
+    {
+      "make": "Jaguar",
+      "years": "about 2004 on",
+      "models": ["XE", "XF", "XJ", "XK", "F-Type", "F-Pace", "E-Pace", "I-Pace", "S-Type", "X-Type"],
+      "bands": [433, 315],
+      "status": "tested",
+      "note": "XF (X260): scan, exit ship mode and live monitor, November 2026"
+    },
+    {
+      "make": "Land Rover",
+      "years": "about 2005 on",
+      "models": ["Range Rover", "Range Rover Sport", "Evoque", "Velar", "Discovery", "Discovery Sport",
+                 "Defender (2019 on)", "Freelander", "LR2", "LR3", "LR4"],
+      "bands": [433, 315],
+      "status": "expected"
+    },
+    {
+      "make": "Volvo",
+      "years": "about 2004 on",
+      "models": ["C30", "C70", "S40", "S60", "S80", "V40", "V50", "V60", "V70", "XC60", "XC70"],
+      "bands": [433],
+      "status": "expected"
+    },
+    {
+      "make": "Mazda",
+      "years": "about 2004 on",
+      "models": ["2", "3", "5", "6", "CX-3", "CX-30", "CX-5", "CX-50", "CX-60", "CX-7", "CX-70", "CX-80",
+                 "CX-9", "CX-90", "MX-30", "MX-5", "RX-8"],
+      "bands": [433, 315],
+      "status": "expected"
+    },
+    {
+      "make": "Abarth",
+      "years": "2016 on",
+      "models": ["124 Spider"],
+      "bands": [433, 315],
+      "status": "recorded",
+      "note": "Recordings of a 124 Spider's four sensors decode; nothing sent to one"
+    },
+    {
+      "make": "Fiat",
+      "years": "2005 to 2010, 2016 on",
+      "models": ["124 Spider (2016 on)", "Ulysse (2005 to 2010)"],
+      "bands": [433, 315],
+      "status": "expected"
+    },
+    {
+      "make": "Peugeot",
+      "years": "about 2004 to 2015",
+      "models": ["1007", "207", "307", "407", "508", "607", "807"],
+      "bands": [433],
+      "status": "expected"
+    },
+    {
+      "make": "Citroën",
+      "years": "about 2004 to 2013",
+      "models": ["C4", "C5", "C6", "C8"],
+      "bands": [433],
+      "status": "expected"
+    },
+    {
+      "make": "Lancia",
+      "years": "2005 to 2010",
+      "models": ["Phedra"],
+      "bands": [433],
+      "status": "expected"
+    },
+    {
+      "make": "Ford",
+      "years": "about 2006 to 2014",
+      "models": ["Galaxy", "Mondeo", "S-Max"],
+      "bands": [433],
+      "status": "expected"
+    },
+    {
+      "make": "Chrysler",
+      "years": "2004 to 2005",
+      "models": ["Pacifica", "Town & Country"],
+      "bands": [315],
+      "status": "expected"
+    },
+    {
+      "make": "Dodge",
+      "years": "2004 to 2005",
+      "models": ["Caravan", "Grand Caravan"],
+      "bands": [315],
+      "status": "expected"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+App(
+    appid="continental_tg1c_lf",
+    name="TPMSFlipper LF Lab",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="tg1c_lf_lab_app",
+    requires=["gui", "storage"],
+    stack_size=6 * 1024,
+    fap_category="Sub-GHz",
+    fap_icon="icon.png",
+    fap_description="Bench LF probe for a loose Continental TG1C sensor: stock wake control, single-bit sweep, dilution and offset tests of the wake frame, a scan of candidate frames, and NXP bootloader CONNECT as burst trains, with live telemetry and on-device NRZ reply decode.",
+    fap_author="TPMSFlipper",
+    fap_version="0.3.6",
+)

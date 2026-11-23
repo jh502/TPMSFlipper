@@ -1,0 +1,4 @@
+App(appid="tpms_tool_recorder", name="TPMSFlipper Tool Recorder", apptype=FlipperAppType.EXTERNAL,
+    entry_point="tpms_tool_recorder_app", requires=["gui", "storage"], stack_size=4096,
+    fap_category="Tools", fap_version="0.1.1", fap_author="TPMSFlipper",
+    fap_description="Guided passive LF recording of another tool; no transmission")

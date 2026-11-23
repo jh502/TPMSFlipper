@@ -1,0 +1,10 @@
+dist/
+.ufbt/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+# No file here has a space in its name. iCloud Drive and Finder make copies
+# that do ("README 2.md"); keep them out.
+* *
+.export-marker
